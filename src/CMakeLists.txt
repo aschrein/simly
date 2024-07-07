@@ -9,6 +9,6 @@ fips_begin_lib(wgpu_entry)
 fips_end_lib()
 
 fips_begin_app(simly_app windowed)
-    fips_files(simly_app.cc)
+    fips_files(simly_app.cpp)
     fips_deps(wgpu_entry imgui)
 fips_end_app()
